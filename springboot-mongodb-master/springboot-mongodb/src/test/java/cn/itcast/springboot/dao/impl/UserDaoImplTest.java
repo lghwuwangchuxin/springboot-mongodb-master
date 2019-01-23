@@ -22,7 +22,7 @@ public class UserDaoImplTest {
 
 	@Test
 	public void save() {
-		User user = new User(1234L, "张三", 12, "男", "北京");
+		User user = new User(1234L, "张三", 12, "男", "北京1");
 		userDao.save(user);
 	}
 
